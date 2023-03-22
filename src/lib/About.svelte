@@ -1,6 +1,6 @@
 <script lang="ts">
   import TitleWithImage from "$lib/TitleWithImage.svelte";
-  import avatar from "$lib/assets/avatar.png";
+  const avatar = 'https://github.com/Maruf-co/Portfolio/blob/main/src/content/avatar.png?raw=true';
 </script>
 
 

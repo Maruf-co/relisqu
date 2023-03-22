@@ -1,9 +1,9 @@
 <script lang="ts">
   import ProjectItem from "./ProjectItem.svelte";
-  import hookYou from "$lib/assets/projects/hookYou.mp4";
-  import mouse from "$lib/assets/projects/mouse.mp4";
-  import pingPong from "$lib/assets/projects/pingPong.mp4";
-  import anlaut from "$lib/assets/projects/anlaut.mp4";
+  const hookYou = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/hookYou.mp4?raw=true";
+  const mouse = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/mouse.mp4?raw=true";
+  const pingPong = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/pingPong.mp4?raw=true";
+  const anlaut = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/anlaut.mp4?raw=true";
 
 </script>
 

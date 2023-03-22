@@ -1,7 +1,7 @@
 <script>
     import Contacts from '$lib/Contacts.svelte';
-	import Navbar from '$lib/Navbar.svelte'
-	import favicon from "$lib/assets/favicon.ico"
+	const favicon = "https://raw.githubusercontent.com/Maruf-co/Portfolio/main/src/content/favicon.ico";
+	import {base} from '$app/paths';
 	import './app.css';
 </script>
 
@@ -13,7 +13,7 @@
 		<link type="Image/x-icon" href={favicon} rel="icon">
 		<!-- pixel fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=true >
 		<link
 		  href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
 		  rel="stylesheet"
@@ -22,7 +22,13 @@
 		<title>Anna's portfolio</title>
 	</head>
 	<header>
-		<Navbar />
+		<nav>
+			<div class="container">
+			  <a class="navItem author" href="{base}/"><b>Relisqu</b></a>
+			  <a class="navItem" href="{base}/projects">Projects</a>
+			  <a class="navItem" href="{base}/jokes">Jokes</a>
+			</div>
+		</nav>
 	</header>
 
 	<main>

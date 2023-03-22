@@ -1,7 +1,7 @@
 <script lang="ts">
   import TitleWithImage from "./TitleWithImage.svelte";
   import JokesFromServer from "./JokesFromServer.svelte";
-  import avatar from "$lib/assets/avatar.png";
+  const avatar = 'https://github.com/Maruf-co/Portfolio/blob/main/src/content/avatar.png?raw=true';
 </script>
 
 <section id="jokes">

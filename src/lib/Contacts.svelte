@@ -1,10 +1,10 @@
 <script lang="ts">
   import ContactItem from "./ContactItem.svelte";
-  import mail from "$lib/assets/contactIcons/mail.svg";
-  import itchIo from "$lib/assets/contactIcons/itchIo.svg";
-  import telegram from "$lib/assets/contactIcons/telegram.svg";
-  import github from "$lib/assets/contactIcons/github.svg";
-  import twitter from "$lib/assets/contactIcons/twitter.svg";
+  const mail = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
+  const itchIo = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
+  const telegram = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/telegram.svg';
+  const github = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
+  const twitter = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
 
 </script>
 
