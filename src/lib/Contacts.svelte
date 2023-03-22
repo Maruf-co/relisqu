@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ContactItem from "./ContactItem.svelte";
+  import ContactItem from "$lib/ContactItem.svelte";
   const mail = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
   const itchIo = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/github.svg';
   const telegram = 'https://raw.githubusercontent.com/Maruf-co/Portfolio/88ef5d7803ced56ed3235f411b41b4fbbbeed0d8/src/content/contactIcons/telegram.svg';

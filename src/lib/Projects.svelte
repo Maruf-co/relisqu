@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ProjectItem from "./ProjectItem.svelte";
+  import ProjectItem from "$lib/ProjectItem.svelte";
   const hookYou = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/hookYou.mp4?raw=true";
   const mouse = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/mouse.mp4?raw=true";
   const pingPong = "https://github.com/Maruf-co/Portfolio/blob/main/src/content/projects/pingPong.mp4?raw=true";
