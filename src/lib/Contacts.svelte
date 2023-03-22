@@ -1,5 +1,11 @@
 <script lang="ts">
   import ContactItem from "./ContactItem.svelte";
+  import mail from "$lib/assets/contactIcons/mail.svg";
+  import itchIo from "$lib/assets/contactIcons/itchIo.svg";
+  import telegram from "$lib/assets/contactIcons/telegram.svg";
+  import github from "$lib/assets/contactIcons/github.svg";
+  import twitter from "$lib/assets/contactIcons/twitter.svg";
+
 </script>
 
 <section id="contacts">
@@ -13,7 +19,7 @@
       }}
       img={{
         alt: "mail",
-        src: "/contactIcons/mail.svg",
+        src: mail,
       }}
     />
 
@@ -24,7 +30,7 @@
       }}
       img={{
         alt: "itch-io",
-        src: "/contactIcons/itchIo.svg",
+        src: itchIo,
       }}
     />
     <ContactItem
@@ -34,7 +40,7 @@
       }}
       img={{
         alt: "telegram",
-        src: "/contactIcons/telegram.svg",
+        src: telegram,
       }}
     />
 
@@ -45,7 +51,7 @@
       }}
       img={{
         alt: "github",
-        src: "/contactIcons/github.svg",
+        src: github,
       }}
     />
     <ContactItem
@@ -55,7 +61,7 @@
       }}
       img={{
         alt: "twitter",
-        src: "/contactIcons/twitter.svg",
+        src: twitter,
       }}
     />
   </ul>

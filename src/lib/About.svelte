@@ -1,12 +1,13 @@
 <script lang="ts">
-  import TitleWithImage from "./TitleWithImage.svelte";
+  import TitleWithImage from "$lib/TitleWithImage.svelte";
+  import avatar from "$lib/assets/avatar.png";
 </script>
 
 
 <section id="about">
   <hr class="divideLine" />
   <TitleWithImage
-    img={{ alt: "Avatar", src: "/avatar.png" }}
+    img={{ alt: "Avatar", src: avatar }}
     title={"Hello, I'm Anna.<br />I'm a game developer<br />and an artist."}
   />
   

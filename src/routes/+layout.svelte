@@ -1,6 +1,7 @@
 <script>
-    import Contacts from '../lib/Contacts.svelte';
-	import Navbar from '../lib/Navbar.svelte'
+    import Contacts from '$lib/Contacts.svelte';
+	import Navbar from '$lib/Navbar.svelte'
+	import favicon from "$lib/assets/favicon.ico"
 	import './app.css';
 </script>
 
@@ -8,8 +9,8 @@
 <div class="app">
 	<head>
 		<!-- favicon -->
-		<link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
-		<link type="Image/x-icon" href="/favicon.ico" rel="icon">
+		<link type="image/x-icon" href={favicon} rel="shortcut icon">
+		<link type="Image/x-icon" href={favicon} rel="icon">
 		<!-- pixel fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

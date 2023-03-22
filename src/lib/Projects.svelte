@@ -1,5 +1,10 @@
 <script lang="ts">
   import ProjectItem from "./ProjectItem.svelte";
+  import hookYou from "$lib/assets/projects/hookYou.mp4";
+  import mouse from "$lib/assets/projects/mouse.mp4";
+  import pingPong from "$lib/assets/projects/pingPong.mp4";
+  import anlaut from "$lib/assets/projects/anlaut.mp4";
+
 </script>
 
 <section id="projects">
@@ -11,7 +16,7 @@
       video={{
         width: "352",
         height: "334",
-        src: "/projects/hookYou.mp4",
+        src: hookYou,
       }}
     />
     <ProjectItem
@@ -20,7 +25,7 @@
       video={{
         width: "320",
         height: "172",
-        src: "/projects/mouse.mp4",
+        src: mouse,
       }}
     />
     <ProjectItem
@@ -29,7 +34,7 @@
       video={{
         width: "362",
         height: "300",
-        src: "/projects/pingPong.mp4",
+        src: pingPong,
       }}
     />
     <ProjectItem
@@ -38,7 +43,7 @@
       video={{
         width: "198",
         height: "358",
-        src: "/projects/anlaut.mp4",
+        src: anlaut,
       }}
     />
   </ul>

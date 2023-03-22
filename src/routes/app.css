@@ -90,9 +90,6 @@ html {
   .divideLine {
     margin: 10em 0; 
   }
-  .divider {
-    height: 700px;
-  }
   
   .project {
     display: flex;
