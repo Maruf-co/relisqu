@@ -5,7 +5,6 @@
 	import './app.css';
 </script>
 
-
 <div class="app">
 	<head>
 		<!-- favicon -->
